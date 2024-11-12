@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+
+body {
+    --tw-bg-opacity: 1;
+    background-color: rgb(148, 163, 180); /* Tailwind slate-400 */
+/*} */
+
+/* index.css */
+body {
+    background-color:#f1f5f9; /* This is the hex code for Tailwind's text-gray-400 */
+}
+

@@ -1,0 +1,19 @@
+/* Define a custom font and color for tasks */
+.task-text {
+  font-family: 'Arial', sans-serif; /* Change to your preferred font */
+  color: #2c3e50; /* Dark blue-gray color */
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Style for completed tasks */
+.task-text.completed {
+  color: #95a5a6; /* Light gray for completed tasks */
+  text-decoration: line-through; /* Line-through for completed tasks */
+}
+
+/* Style for the due date and time */
+.task-date {
+  color: #e74c3c; /* Red color for due date text */
+  font-style: italic;
+  font-size: 14px;
+}
